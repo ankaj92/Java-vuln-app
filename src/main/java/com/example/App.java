@@ -19,7 +19,7 @@ public class App {
             // Hardcoded credentials (secret leak)
             String url = "jdbc:mysql://localhost:3306/mydb";
             String user = "root";
-            String password = "rootpassword";
+            String password = "RootPassword@1234566";
 
             Connection conn = DriverManager.getConnection(url, user, password);
             Statement stmt = conn.createStatement();
