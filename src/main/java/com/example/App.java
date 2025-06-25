@@ -11,7 +11,7 @@ public class App {
 
         System.out.println("Enter username to delete:");
         String input = scanner.nextLine();
-        String password = "admin123";
+        
 
 
         // SQL Injection vulnerability
@@ -21,7 +21,7 @@ public class App {
             // Hardcoded credentials (secret leak)
             String url = "jdbc:mysql://localhost:3306/mydb";
             String user = "root";
-            String password = "RootPassword@1234566";
+            String password = "admin123";
 
             Connection conn = DriverManager.getConnection(url, user, password);
             Statement stmt = conn.createStatement();

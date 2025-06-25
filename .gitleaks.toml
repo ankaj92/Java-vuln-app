@@ -1,5 +1,5 @@
 [[rules]]
-description = "Hardcoded DB password"
-id = "db-password"
-regex = '''(?i)(db|database|sql)?(password|passwd)\s*=\s*["'][^"']{4,}["']'''
-tags = ["db", "password", "custom"]
+description = "Hardcoded password assignment"
+id = "hardcoded-password"
+regex = '''(?i)(password|passwd|pwd)\s*=\s*["'][^"']{4,}["']'''
+tags = ["password", "custom"]
