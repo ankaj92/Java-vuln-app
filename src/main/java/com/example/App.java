@@ -11,6 +11,8 @@ public class App {
 
         System.out.println("Enter username to delete:");
         String input = scanner.nextLine();
+        String password = "admin123";
+
 
         // SQL Injection vulnerability
         String query = "DELETE FROM users WHERE username = '" + input + "';";
