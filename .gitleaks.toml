@@ -1,0 +1,5 @@
+[[rules]]
+description = "Hardcoded DB password"
+id = "db-password"
+regex = '''(?i)(db|database|sql)?(password|passwd)\s*=\s*["'][^"']{4,}["']'''
+tags = ["db", "password", "custom"]
