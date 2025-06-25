@@ -26,7 +26,7 @@ jobs:
           ./dependency-check/dependency-check/bin/dependency-check.sh \
             --project "JavaProject" \
             --scan . \
-            --format "XML" \
+            --format "HTML" \
             --out dependency-check-report \
             --disableAssembly
 
